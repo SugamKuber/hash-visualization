@@ -4,6 +4,8 @@
   padding: 0;
 }
 body {
+  font: 100% Verdana, Arial, Helvetica, sans-serif;
+  color: #074443;
   background: rgb(118, 255, 184);
   background: -moz-linear-gradient(
     308deg,
@@ -28,6 +30,7 @@ body {
 .main {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -38,4 +41,11 @@ button {
   border-style: none;
   border-radius: 10px;
   cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0px;
 }
