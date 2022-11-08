@@ -29,6 +29,7 @@ body {
     rgba(170, 209, 192, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#76ffb8",endColorstr="#aad1c0",GradientType=1);
+  background-repeat: no-repeat;
 }
 
 .VisualizationMainPage #header {
