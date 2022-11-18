@@ -78,3 +78,15 @@ input:focus {
   padding: 0px 41px;
   margin: 15px 0px;
 }
+
+button {
+  background-color: rgba(154, 203, 212, 0.958);
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 150px;
+  
+}
