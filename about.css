@@ -1,14 +1,15 @@
-@charset "utf-8";
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 body {
   font: 100% Verdana, Arial, Helvetica, sans-serif;
-  color: #000000;
-  display: flex;
-  justify-content: center;
+  color: #074443;
   background: rgb(118, 255, 184);
   background: -moz-linear-gradient(
     308deg,
@@ -31,50 +32,22 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#76ffb8",endColorstr="#aad1c0",GradientType=1);
   background-repeat: no-repeat;
 }
-
-.VisualizationMainPage #header {
-  color: #074443;
-  text-align: center;
-}
-
-.VisualizationMainPage #header h1 {
-  padding: 10px 0;
-}
-
-input {
-  background-color: rgb(197, 243, 245);
-  padding: 7px 6px;
-  margin: 0px 5px;
-  border-style: none;
-  outline: none;
-  border-radius: 10px;
-}
-input:focus {
-  background-color: rgb(255, 255, 255);
-  border-style: none;
-  outline: none;
-}
-#canvas {
+.main {
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#algoControlSection {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+
+.boxBody {
+  background-color: rgba(167, 223, 234, 0.958);
   border-radius: 10px;
-}
-#generalAnimationControlSection {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 10px 40px;
+  margin: 20px 0px;
 }
 
-.navBody {
-  background-color: rgb(197, 243, 245);
-  border-radius: 10px;
-  padding: 0px 41px;
-  margin: 15px 0px;
+.pText {
+  text-align: center;
+  margin:40px 0px;
 }

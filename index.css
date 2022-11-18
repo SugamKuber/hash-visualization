@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 body {
   font: 100% Verdana, Arial, Helvetica, sans-serif;
   color: #074443;
@@ -28,6 +32,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#76ffb8",endColorstr="#aad1c0",GradientType=1);
   background-repeat: no-repeat;
 }
+
 .main {
   height: 100vh;
   display: flex;
@@ -37,16 +42,29 @@ body {
 }
 
 button {
-  background-color: rgb(197, 243, 245);
+  background-color: rgba(167, 223, 234, 0.958);
   padding: 10px;
   border-style: none;
   border-radius: 10px;
   cursor: pointer;
   margin-left: 15px;
   margin-right: 15px;
+  width: 150px;
 }
 
 h1 {
   text-align: center;
   margin: 20px 0px;
+}
+.navBody {
+  background-color: rgba(167, 223, 234, 0.958);
+  border-radius: 10px;
+  padding: 0px 41px;
+  margin: 15px 0px;
+}
+.footerBody {
+  background-color: rgba(167, 223, 234, 0.958);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 100px 0px 0px 0px;
 }
